@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="GUI-Tugas2.jnlp">
+    <information>
+        <title>GUI-Tugas2</title>
+        <vendor>TOSHIBA</vendor>
+        <description>null</description>
+        <offline-allowed/>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="11.0.8+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="GUI-Tugas2.jar" size="2097" download="eager"/>
+    </resources>
+    <jfx:javafx-desc width="800" height="600" main-class="gui.tugas.pkg2.GUITugas2" name="GUITugas2"/>
+</jnlp>
+
