@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="283.0" prefWidth="454.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tugas3.DashboardController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="100.0" layoutY="14.0" prefHeight="31.0" prefWidth="255.0" text="Registrasi BERHASIL !!!" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font name="Calibri Bold Italic" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="textNama" layoutX="13.0" layoutY="76.0" text="Nama     :">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <Text fx:id="textHnama" layoutX="89.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="354.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="textHtelepon" layoutX="89.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="354.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="textHalamat" layoutX="89.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="354.0">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <Label fx:id="textTelepon" layoutX="11.0" layoutY="105.0" text="Telepon  :">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="textAlamat" layoutX="13.0" layoutY="134.0" text="Alamat   :">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
